@@ -1,0 +1,90 @@
+/**
+  *copyright by 2022 oldhelps
+*/
+#myNav{
+	background-color: #11688a;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+#myCss{
+	color:#0000ff;
+}
+#err{
+	color: red;
+	display:block;
+}
+#oh-carousel{
+	margin: 0px;
+}
+#oh-carousel .carousel-inner .item{
+	background:no-repeat center center;
+	-webkit-background-size: cover ;
+	background-size:cover;
+}
+@media screen and ( min-width: 800px ){
+	 #oh-carousel .item{
+		height: 410px;
+	}
+	#oh-carousel{
+		margin:120px auto;
+		width:95%;
+	}
+}
+@media screen and ( max-width: 800px ){
+	.carousel{
+		margin:170px auto;
+		width:100%
+	}
+}
+#mulNews{
+	margin-top: -80px;
+	padding: 0px 0;
+	width:95%;
+	
+}
+#mulNewsTop{
+	border-bottom: 1px solid #11618A;
+}
+#mulNewsTop .text-left{
+		margin-bottom: 10px;
+}
+#mulNewsTop .text-left a{
+	font-size: 20px;
+	margin-left: 70px;
+
+}
+#mulNewsBottom{
+	margin-top:30px ;
+}
+#mulNewsBottom a{
+	color: #000000;
+	text-decoration: none;
+}
+#mulNewsBottom a:hover{
+	color: #0AB4F7;
+}
+#footer{
+	width: 100%;
+	padding: 10px;
+	height: 100%;
+	background-color:#11618A ;
+	color: white;
+}
+#footer .footerLeft{
+	margin-left: 20px;
+}
+#footer .footerRight li{
+	font-size: 18px;
+	margin-right: 35px;
+}
+#myNav ul li .active{
+background-color:#0000ff;
+}
+.filetree{
+	width:300px;
+	height:1000px;
+}
+.info{
+	width: 200px;
+}

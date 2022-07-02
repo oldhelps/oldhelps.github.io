@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keyword" content="oldhelps">
+		<meta name="description" content="HTML,CSS,javascript">
+		<meta  http-equiv="author" content="OLD HELPS"/>
+		<title>oldhelps</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>	
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+		 <script type="text/javascript" src="js/index.js"></script>
+		 <script src="js/indexTel.js" type="text/javascript" charset="utf-8"></script>
+		 <script src="js/url.js" charset="utf-8" type="text/javascript"></script>
+		 <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+		 <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+		 <link rel="stylesheet" href="layui/layui/css/layui.css">
+		 <script src="layui/layui/layui.js"></script>
+		 <link rel="stylesheet" href="layer/layer/layer.js">
+		 <script src="js/indexLayui.js"></script>
+		 <script src="jquery-easyui/jquery.easyui.min.js"></script>
+		 <script src="jquery-easyui/locale/easyui-lang-zh_CN.js"></script>
+		 <link rel="stylesheet" href="jquery-easyui/themes/default/easyui.css">
+		 <link rel="stylesheet" href="jquery-easyui/themes/icon.css">
+		 <script src="js/indexAjax.js" ></script>
+		 <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+		 <link rel="stylesheet" href="Foundation-Sites-CSS/css/foundation.min.css">
+		 <script src="Foundation-Sites-CSS/js/vendor/foundation.min.js"></script>
+	</head>
+	<body>
+	   <div class="·fluid">
+		<nav class="nav navbar-inverse " id="myNav" style="margin:0px ;">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">OLD HELPS</a>
+			</div>
+			<div id="menu" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+				  <li><a href="mailto:oldhelps@126.com">联系我们</a></li>
+				   <li><a href="./doc/index.html">文档</a></li>
+				   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					  示例</a>
+				   <ul class="dropdown-menu" id="myMenu">
+					   <li><a href="examples/tel.html">电话拨号键盘</a></li>
+					<li><a href="examples/example.htm">HTML 综合</a></li>
+					<li><a href="examples/button.html">Bootstrap 按钮</a></li>
+					<li><a href="examples/nav.html">Bootstrap导航栏</a></li>
+					<li><a href="examples/index.html">示例中心</a></li>
+				   </ul>
+				   </li>
+				   
+				   <li><a href="#myModal" data-toggle="modal" id="myLink">登录</a></li>
+				   <li><span class="glyphicon glyphicon-user"></span></li>
+				   <li id="username"></li>
+			  </ul>
+	</nav>
+	   </div>
+	  <section id="oh-carousel"  class="carousel slide" data-ride="carousel">
+		<!-- 指示器 -->
+		<ol class="carousel-indicators">
+		  <li data-target="#oh-carousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#oh-carousel" data-slide-to="1" class="active"></li>
+		  <li data-target="#oh-carousel" data-slide-to="2" class="active"></li>
+		  <li data-target="#oh-carousel" data-slide-to="3" class="active"></li>
+		</ol>
+		 <!-- 中间iyfc -->
+		<div class="carousel-inner" role="listbox">
+		  <div class="item active" data-sm-img="img/11.jpg" data-lg-img="img/1.jpg">
+		  </div>
+		  <div class="item" data-sm-img="img/22.jpg" data-lg-img="img/2.jpg">
+		  </div>
+		  <div class="item" data-sm-img="img/33.jpg" data-lg-img="img/3.jpg">
+		  </div>
+		  <div class="item" data-sm-img="img/44.jpg" data-lg-img="img/4.jpg">
+		  </div>
+		  
+		</div>
+	  
+		<!-- 控制区-->
+		<a class="left carousel-control" href="#oh-carousel" role="button" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#oh-carousel" role="button" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a> 
+  
+  </section>
+	        <div class="modal fade" id="myModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	            <div class="modal-dialog">
+	                <div class="modal-content">
+	                    <div class="btn-info modal-header">
+	                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	                        <h4>您好,欢迎登录OLD HELPS！</h4>
+	                    </div>
+	
+	                    <div class="modal-body">
+	                             <div class="form-group">
+	                                <label for="uname" class="col-sm-2 control-label">用户名</label>
+	                                <div class="col-sm-9">
+	                                    <input type="text" id="uname" name="uname" class="form-control well" placeholder="请输入用户名"/>
+	                                </div>
+									<span id="err">
+									</span>
+	                            </div>
+	                            <div class="form-group">
+	                                <label for="upwd" class="col-sm-2 control-label">密码</label>
+	                                <div class="col-sm-9">
+	                                    <input type="password" id="upwd" name="upwd" class="form-control well" placeholder="请输入密码"/>
+										</span>
+	                                </div>
+	                            </div>
+	                    </div>
+	
+	                    <div class="modal-footer">
+	                        <button  class="btn btn-primary"  data-dismiss="modal" id="btn">登录</button>
+	                        <button  class="btn btn-primary" data-dismiss="modal">取消</button>
+	                    </div>
+	
+	                </div>
+	            </div>
+	        </div> 
+	    
+	</div>
+	
+	  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		 <h1 id="myCss">欢迎来到OLD HELPS！</h1>`
+		     oldhelps是oldhelps开发的应用于Web前端开发的网站。<br>
+	  </div>
+	  <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">在oldhelps上，有各种各样有趣的例子。</p><br>
+	  <small id="myCss"><span class="caret"></span>下面这个例子就是实现电话拨号键盘。</small>
+	  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="box">
+	      <button name="button" class="btn btn-primary" >1</button>
+	      <button name="button" class="btn btn-primary">2</button>
+	      <button name="button" class="btn btn-primary">3</button><br>
+	      <button name="button" class="btn btn-primary">4</button>
+	      <button name="button" class="btn btn-primary">5</button>
+	      <button name="button"  class="btn btn-primary">6</button><br>
+	      <button name="button" class="btn btn-primary">7</button>
+	      <button name="button"class="btn btn-primary" >8</button>
+	      <button name="button" class="btn btn-primary">9</button><br>
+	      <button name="button" class="btn btn-primary">*</button>
+	      <button name="button" class="btn btn-primary">0</button>
+	      <button name="button" class="btn btn-primary">#</button><br>
+	      <input type="text" id="id-input-tel" readonly  maxlength="11"/>
+	  </div>
+	  <h3 class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="myCss">观看视频了解我们</h3>
+	  <video
+	  id="my-video"
+	  class="video-js"
+	  controls
+	  preload="auto"
+	  width="300"
+	  height="200"
+	  poster="img/logo.png"
+	  data-setup="{}"
+	  tabindex="-1"
+	>
+	<source src="media/vidio.mp4" type="video/mp4" />
+	<p class="vjs-no-js">
+	 您的浏览器不支持此视频！
+	  <a href="https://google.cn/chrome" target="_blank"
+		>支持的浏览器</a
+	  >
+	</p>
+  </video>
+	  <h4 id="myCss">OLD HELPS 服务</h4>
+	  <br><br><br>
+	<div class="container-fluid" id="mulNews">
+<div class="row"  id="mulNewsTop">
+	<div class="col-md-10 col-sm-6  col-xs-6 text-left">
+		<a href="#">示例</a>
+	</div>
+	<div class="col-md-1 col-sm-5   col-xs-5 text-right">
+		<a href="examples/index.html">进入示例网></a>
+	</div>
+</div>
+<div class="row" id="mulNewsBottom">
+
+	<div class="col-md-4">
+		  <div class="thumbnail">
+		      <img src="img/examples.jpg" alt="...">
+		      <div class="caption">
+		        <a href="examples/index.html"> <h4><strong>OLD HELPS 示例中心</strong></h4></a>
+		      </div>
+		    </div>
+	</div>
+	 <div class="easyui-tabs" style="width:400px;height:100px;">
+			<div title="E-mail" style="padding:10px;">
+				oldhelps@126.com
+			</div>
+			<div title="产品" closable="false" style="padding:10px;">
+				<a href="OCode.html"><img src="img/OCode.ico" ></a>
+				<br>下载OCode for windows
+			</div>
+  </div>
+</div>
+<br><br><br><br><br>
+
+	<div class="easyui-accordion info"  selected="true">
+		<div title="关于此网站"  style="overflow:auto;padding:10px;">
+			<h3 style="color:#0099FF;">关于此网站</h3>
+			<pre><p>此网站不仅是OLD HELPS的官网，也是一个应用于Web前端开发的网站</p></pre>
+			
+		</div>
+		<div title="详细信息" style="padding:10px;">
+			版本：2022.2
+			<br>
+			&copy;2022 oldhelps
+		</div>
+	
+		</div>
+	  </div>
+	  <div class="medium-12 columns">
+		<div class="panel">
+		  <h1>支持OLD HELPS！</h1>
+		  <p>天津市河东区金湾花园6-7-201</p>
+		  <a href="mailto:oldhelps@126.com" class="button small">电子邮件</a>
+		</div>
+	  </div>
+	</div>
+	  <div class="container-fluid" id="footer">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footerLeft">
+			<p>版权所有 © oldhelps</p>
+	  <a class="fa fa-github" target="_blank">
+		  在GitHub上Follow oldhelps
+	  </a>
+			<p>天津市河东区金湾花园6-7-201</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-right footerRight">
+			<ul class="list-unstyled list-inline">
+				<li><button onclick="url()" class="btn btn-primary urlbtn">忘记了网址?</button></li>
+				<li id="url"><a href="#" id="link"></a></li>
+				<li><a href="examples/index.html"></a>示例中心</li>
+				<div id="vue">
+					<li ><button onclick="upd()" class="btn btn-primary">查看最新版本及信息</button></li>
+					
+				</div>
+					<a href="mailto:oldhelps@126.com" class="fa fa-envelope fa-2x"></a>
+			</ul>
+		</div>
+	</div>
+	</body>
+</html>

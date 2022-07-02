@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<a href="#">123</a>
+<a name="aaa">ddd</a>
+    <script>
+    $(function(){    //相当于window.onload=function（）{}
+    $("a[href]").click(function(){
+    $(this).hide()//隐藏
+    });
+    })
+    </script>
+</body>
+</html>
